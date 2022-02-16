@@ -22561,10 +22561,10 @@ class Appearance {
 }
 
 PDFNet::Initialize("demo:1632324626160:78c127af030000000051208472fc3e77c54236d909e877ad77db1a77d0");       // PDFNet must be initialized before accessing any PDFTron API
-    $doc = new PDFDoc();
-    $page = $doc->PageCreate(); // Start a new page
-    $doc->PagePushBack($page); // Add the page to document
-    $doc->Save("output.pdf", SDFDoc::e_linearized); // Save the document as a linearized PDF
+    //$doc = new PDFDoc();
+    //$page = $doc->PageCreate(); // Start a new page
+    //$doc->PagePushBack($page); // Add the page to document
+    //$doc->Save("output.pdf", SDFDoc::e_linearized); // Save the document as a linearized PDF
     echo nl2br("Hello World!\n");
 
 ?>
